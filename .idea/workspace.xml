@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="инициализация">
-      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="первая домашка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/class_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/coverage_html_cb_497bf287.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favicon_32_cb_58284776.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/function_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/keybd_closed_cb_ce680311.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/style_cb_718ce007.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6___init___py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_json_reader_py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_main_py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_products_py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +38,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -46,13 +66,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_category.py.executor": "Run",
+    "Python tests.pytest in tests.executor": "Run",
+    "Python.category.executor": "Run",
+    "Python.json_reader.executor": "Run",
+    "Python.products.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/home__work__14__2",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/PythonProject3/tests"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\PythonProject3\data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="Домашки по ООП" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (PythonProject3)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;C:\\Users\\user\\PycharmProjects\\PythonProject3\\tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745939494339</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="первая домашка">
+      <option name="closed" value="true" />
+      <created>1745954460586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745954460586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="инициализация" />
-    <option name="LAST_COMMIT_MESSAGE" value="инициализация" />
+    <MESSAGE value="первая домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="первая домашка" />
   </component>
 </project>
