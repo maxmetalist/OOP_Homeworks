@@ -1,6 +1,7 @@
 import pytest
 
 from src.category import Category
+from src.product_iterator import ProductIterator
 from src.products import Product
 
 
@@ -12,7 +13,7 @@ def product1_():
         products=[
             Product("Смартфон", "Huawey Honor 10", 20000.00, 10),
             Product("Телевизор", "Sony Bravia", 50000.00, 10),
-            Product("Смартфон", "Xiaomy Redmy 12", 20000, 10),
+            Product("Смартфон", "Xiaomy Redmy 12", 20000.00, 10),
         ],
     )
 
@@ -31,4 +32,19 @@ def product2_():
 
 @pytest.fixture
 def product():
-    return Product("Игровая консоль", "Sony Playstation 5", 100000, 10)
+    return Product("Игровая консоль", "Sony Playstation 5", 100000.00, 10)
+
+
+@pytest.fixture
+def product_iterator(product2_):
+    return ProductIterator(product2_)
+
+
+@pytest.fixture
+def product_1():
+    return Product("Смартфон", "Huawey Honor 10", 20000.00, 10)
+
+
+@pytest.fixture
+def product_2():
+    return Product("Смартфон", "Xiaomy Redmy 12", 20000.00, 10)

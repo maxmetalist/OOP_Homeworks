@@ -7,44 +7,51 @@ class Product:
     quantity: int
 
     def __init__(self, name, description, price, quantity):
+        """Инициализатор класса"""
 
         self.name = name
         self.description = description
         self.__price = price
         self.quantity = quantity
 
+    def __str__(self):
+        """Представление экземпляров класса Product в строковом формате"""
+        return f"{self.name}, {self.price}, Остаток: {self.quantity} шт."
+
+    def __add__(self, other):
+        """Метод сложения экземпляров(складывается цена, умноженная на количество"""
+        return self.__price * self.quantity + other.__price * other.quantity
+
     @classmethod
     def new_product(cls, name, description, price, quantity):
+        """класс-метод добавления продукта"""
         return cls(name, description, price, quantity)
 
     @property
     def price(self):
+        """Геттер для обращения к приватному атрибуту __price"""
         return self.__price
 
     @price.setter
     def price(self, new_price: float):
+        """Сеттер атрибута с проверкой условий, что цена не нулевая, не отрицательная, не меньше предыдущей"""
         if new_price <= 0:
             print("Цена не должна быть нулевая или отрицательная")
         elif new_price < self.__price:
             print("Цена понизилась? Да ладно!!! А чё так можно было?!!")
             return
-        self.__price = new_price
+        else:
+            self.__price = new_price
 
-
+#
 # if __name__ == "__main__":
-#     product1 = Product( "Samsung Galaxy C23 Ultra",
-#         "256GB, Серый цвет, 200MP камера",
-#         180000.0,
-#         5)
+#     product1 = Product("Samsung Galaxy C23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
 #     print(product1.name)
 #     print(product1.description)
 #     print(product1.price)
 #     print(product1.quantity)
 #
-#     product2 = Product.new_product("Iphone 15",
-#         "512GB, Gray space",
-#         210000.0,
-#         8)
+#     product2 = Product.new_product("Iphone 15", "512GB, Gray space", 210000.0, 8)
 #     print(product2.name)
 #     print(product2.description)
 #     print(product2.price)
@@ -52,3 +59,4 @@ class Product:
 #
 #     product2.price = 100000
 #     print(product2.price)
+#     print(product1 + product2)

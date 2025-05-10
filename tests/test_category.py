@@ -13,9 +13,9 @@ def test_category_init(product1_, product2_):
 
 def test_products_property(product1_):
     assert product1_.products == (
-        "Смартфон, 20000.0. Остаток: 10 шт.\n"
-        "Телевизор, 50000.0. Остаток: 10 шт.\n"
-        "Смартфон, 20000. Остаток: 10 шт.\n"
+        "Смартфон, 20000.0, Остаток: 10 шт.\n"
+        "Телевизор, 50000.0, Остаток: 10 шт.\n"
+        "Смартфон, 20000.0, Остаток: 10 шт.\n"
     )
 
 
@@ -23,3 +23,7 @@ def test_products_setter(product1_, product):
     assert len(product1_.products_list) == 3
     product1_.products = product
     assert len(product1_.products_list) == 4
+
+
+def test_category_str(product):
+    assert str(product) == "Игровая консоль, 100000.0, Остаток: 10 шт."
