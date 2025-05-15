@@ -2,8 +2,10 @@
 # from src.products import Product
 #
 
+
 class ProductIterator:
     """Итератор для перебора по списку товаров в категории"""
+
     def __init__(self, category_obj):
         self.category = category_obj
         self.start = 0
@@ -19,6 +21,7 @@ class ProductIterator:
             return product
         else:
             raise StopIteration
+
 
 #
 # if __name__ == "__main__":
