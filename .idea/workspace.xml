@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="первая домашка">
+    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="вторая домашка">
+      <change afterPath="$PROJECT_DIR$/src/product_iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_product_iterator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/class_index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/coverage_html_cb_497bf287.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/favicon_32_cb_58284776.png" beforeDir="false" />
@@ -22,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_products_py.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_products.py" afterDir="false" />
     </list>
@@ -68,14 +70,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_products.test_product_str.executor": "Run",
     "Python tests.Python tests in test_category.py.executor": "Run",
+    "Python tests.Python tests in test_products.py.executor": "Run",
     "Python tests.pytest in tests.executor": "Run",
     "Python.category.executor": "Run",
     "Python.json_reader.executor": "Run",
+    "Python.product_iterator.executor": "Run",
     "Python.products.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/home__work__14__2",
+    "git-widget-placeholder": "feature/home__work__14__3",
     "last_opened_file_path": "C:/Users/user/PycharmProjects/PythonProject3/tests"
   }
 }]]></component>
@@ -136,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745954460586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="вторая домашка">
+      <option name="closed" value="true" />
+      <created>1746469989434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746469989434</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="инициализация" />
     <MESSAGE value="первая домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="первая домашка" />
+    <MESSAGE value="вторая домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="вторая домашка" />
   </component>
 </project>
