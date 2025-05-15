@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="вторая домашка">
-      <change afterPath="$PROJECT_DIR$/src/product_iterator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_product_iterator.py" afterDir="false" />
+    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="третья домашка">
+      <change afterPath="$PROJECT_DIR$/src/lawngrass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/smartphone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_lawngrass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_smartphone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/class_index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/coverage_html_cb_497bf287.js" beforeDir="false" />
@@ -20,12 +22,13 @@
       <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_json_reader_py.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_main_py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_product_iterator_py.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_products_py.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product_iterator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +79,13 @@
     "Python tests.pytest in tests.executor": "Run",
     "Python.category.executor": "Run",
     "Python.json_reader.executor": "Run",
+    "Python.lawngrass.executor": "Run",
     "Python.product_iterator.executor": "Run",
     "Python.products.executor": "Run",
+    "Python.smartphone.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/home__work__14__3",
+    "git-widget-placeholder": "feature/homework__16__2",
     "last_opened_file_path": "C:/Users/user/PycharmProjects/PythonProject3/tests"
   }
 }]]></component>
@@ -149,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746469989434</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="третья домашка">
+      <option name="closed" value="true" />
+      <created>1746895091811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746895091811</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +180,7 @@
     <MESSAGE value="инициализация" />
     <MESSAGE value="первая домашка" />
     <MESSAGE value="вторая домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="вторая домашка" />
+    <MESSAGE value="третья домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="третья домашка" />
   </component>
 </project>

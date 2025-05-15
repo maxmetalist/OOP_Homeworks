@@ -20,7 +20,9 @@ class Product:
 
     def __add__(self, other):
         """Метод сложения экземпляров(складывается цена, умноженная на количество"""
-        return self.__price * self.quantity + other.__price * other.quantity
+        if type(other) is Product:
+            return self.__price * self.quantity + other.__price * other.quantity
+        raise TypeError
 
     @classmethod
     def new_product(cls, name, description, price, quantity):
@@ -43,7 +45,7 @@ class Product:
         else:
             self.__price = new_price
 
-#
+
 # if __name__ == "__main__":
 #     product1 = Product("Samsung Galaxy C23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5)
 #     print(product1.name)

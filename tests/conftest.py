@@ -1,8 +1,10 @@
 import pytest
 
 from src.category import Category
+from src.lawngrass import LawnGrass
 from src.product_iterator import ProductIterator
 from src.products import Product
+from src.smartphone import Smartphone
 
 
 @pytest.fixture
@@ -48,3 +50,40 @@ def product_1():
 @pytest.fixture
 def product_2():
     return Product("Смартфон", "Xiaomy Redmy 12", 20000.00, 10)
+
+
+@pytest.fixture
+def smartphone1():
+    return Smartphone(
+        "Samsung Galaxy C23 Ultra",
+        "256GB,Серый цвет, 200MP камера",
+        180000.0,
+        1,
+        "2,50 Ghz",
+        "C23 Ultra",
+        "256GB",
+        "Black",
+    )
+
+
+@pytest.fixture
+def smartphone2():
+    return Smartphone("Iphone 15", "512GB, Gray space", 210000.0, 1, "2,20 Ghz", "Iphone 15", "512GB", "Silver")
+
+
+@pytest.fixture
+def grass1():
+    return LawnGrass("Ну трава...", "Да, блин, трава и всё", 1000.0, 10, "РФ", "30 дней", "Угадай(ответ: зелёная)")
+
+
+@pytest.fixture
+def grass2():
+    return LawnGrass(
+        "Да, тоже трава",
+        "Трава, как её ещё обозвать",
+        1500.0,
+        10,
+        "Ну пусть GBR",
+        "30 дней",
+        "Прикинь, чёрная(селекция!!!)",
+    )
