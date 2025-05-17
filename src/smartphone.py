@@ -17,7 +17,7 @@ class Smartphone(Product):
             return self.price * self.quantity + other.price * other.quantity
         raise TypeError
 
-
+#
 # if __name__ == "__main__":
 #     smartphone = Smartphone(
 #         "Samsung Galaxy C23 Ultra",
@@ -40,7 +40,17 @@ class Smartphone(Product):
 #     print(smartphone.memory)
 #     print(smartphone.color)
 #
-#     smartphone1 = Smartphone("Iphone 15", "512GB, Gray space", 210000.0, 1, "2,20 Ghz", "Iphone 15", "512GB", "Silver")
-#     product2 = Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
+#     smartphone1 = Smartphone("Iphone 15",
+#                              "512GB, Gray space",
+#                              210000.0,
+#                              1,
+#                              "2,20 Ghz",
+#                              "Iphone 15",
+#                              "512GB",
+#                              "Silver")
+#     product2 = Product("Xiaomi Redmi Note 11",
+#                        "1024GB, Синий",
+#                        31000.0,
+#                        14)
 #     print(smartphone + smartphone1)
 #     print(smartphone + product2)

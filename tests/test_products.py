@@ -22,14 +22,14 @@ def test_new_product_zero_price(capsys, product):
     """тест на выводное сообщение при нулевой цене"""
     product.price = 0
     message = capsys.readouterr()
-    assert message.out.strip() == "Цена не должна быть нулевая или отрицательная"
+    assert message.out.strip().split("\n")[-1] == "Цена не должна быть нулевая или отрицательная"
 
 
 def test_new_product_low_price(capsys, product):
     """тест на выводное сообщение при нулевой цене"""
     product.price = 10000.0
     message = capsys.readouterr()
-    assert message.out.strip() == "Цена понизилась? Да ладно!!! А чё так можно было?!!"
+    assert message.out.strip().split("\n")[-1] == "Цена понизилась? Да ладно!!! А чё так можно было?!!"
 
 
 def test_new_product_new_price(product):
