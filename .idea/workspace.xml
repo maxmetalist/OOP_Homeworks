@@ -4,31 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="третья домашка">
-      <change afterPath="$PROJECT_DIR$/src/lawngrass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smartphone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_lawngrass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_smartphone.py" afterDir="false" />
+    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="четвёртая домашка">
+      <change afterPath="$PROJECT_DIR$/src/base_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/print_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_print_mixin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/class_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/coverage_html_cb_497bf287.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favicon_32_cb_58284776.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/function_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/keybd_closed_cb_ce680311.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/style_cb_718ce007.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6___init___py.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_json_reader_py.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_main_py.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_product_iterator_py.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_products_py.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/class_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/class_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/function_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/function_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_category_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_products_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_products_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_smartphone_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/z_145eef247bfb46b6_smartphone_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product_iterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product_iterator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartphone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_products.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746895091811</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="четвёртая домашка">
+      <option name="closed" value="true" />
+      <created>1747308748950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747308748950</updated>
+    </task>
+    <task id="LOCAL-00006" summary="четвёртая домашка">
+      <option name="closed" value="true" />
+      <created>1747309457221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747309457221</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +189,7 @@
     <MESSAGE value="первая домашка" />
     <MESSAGE value="вторая домашка" />
     <MESSAGE value="третья домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="третья домашка" />
+    <MESSAGE value="четвёртая домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="четвёртая домашка" />
   </component>
 </project>
