@@ -23,12 +23,6 @@ def test_print_mixin(capsys):
     message = capsys.readouterr()
     assert message.out.strip() == "Smartphone(Samsung Galaxy C23 Ultra, 256GB,Серый цвет, 200MP камера, 180000.0, 1)"
 
-    LawnGrass("Ну трава...",
-              "Да, блин, трава и всё",
-              1000.0,
-              10,
-              "РФ",
-              "30 дней",
-              "Угадай(ответ: зелёная)")
+    LawnGrass("Ну трава...", "Да, блин, трава и всё", 1000.0, 10, "РФ", "30 дней", "Угадай(ответ: зелёная)")
     message = capsys.readouterr()
     assert message.out.strip() == "LawnGrass(Ну трава..., Да, блин, трава и всё, 1000.0, 10)"

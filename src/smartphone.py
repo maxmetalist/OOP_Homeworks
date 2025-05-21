@@ -17,6 +17,7 @@ class Smartphone(Product):
             return self.price * self.quantity + other.price * other.quantity
         raise TypeError
 
+
 #
 # if __name__ == "__main__":
 #     smartphone = Smartphone(

@@ -16,7 +16,15 @@ class Product(BaseProduct, PrintMixin):
         self.name = name
         self.description = description
         self.__price = price
-        self.quantity = quantity
+        try:
+            if quantity != 0:
+                self.quantity = quantity
+            else:
+                raise ValueError
+        except ValueError:
+            self.quantity = quantity
+            print("Товар с нулевым количеством не может быть добавлен.")
+
         super().__init__()  # обращение к родительскому классу
 
     def __str__(self):

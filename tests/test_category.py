@@ -1,5 +1,7 @@
 import pytest
 
+from src.products import Product
+
 
 def test_category_init(product1_, product2_):
     """тест инициализации экземпляра класса Category"""
@@ -49,3 +51,28 @@ def test_products_setter_normal(product1_, smartphone1):
         "Телевизор, 50000.0, Остаток: 10 шт.\n"
         "Смартфон, 20000.0, Остаток: 10 шт.\n"
     )
+
+
+def test_middle_price(product1_, product_no_quantity):
+    """тест на работу метода вычисления средней цены товара в категории(при нулевом и не нулевом количестве)"""
+    assert product1_.middle_price() == 30000.0
+    assert product_no_quantity.middle_price() == 0
+
+
+def test_custom_exception(capsys, product1_):
+    """тест перехвата выводных сообщений кастомной ошибки(на нулевое и не нулевое количество)"""
+    assert len(product1_.products_list) == 3
+
+    product_add = Product("Смартфон", "Huawey Nova 10", 20000.00, 0)
+    product1_.products = product_add
+    message = capsys.readouterr()
+    assert message.out.strip().split("\n")[-2] == (
+        "Круто, конечно, но у тебя количество ноль." "Как мы добавим дырку от бублика?"
+    )
+    assert message.out.strip().split("\n")[-1] == "Обработка завершена. Как то так..."
+
+    product_add = Product("Смартфон", "Huawey Nova 10", 20000.00, 10)
+    product1_.products = product_add
+    message = capsys.readouterr()
+    assert message.out.strip().split("\n")[-2] == "Ладно, так и быть. Товар добавлен."
+    assert message.out.strip().split("\n")[-1] == "Обработка завершена. Как то так..."

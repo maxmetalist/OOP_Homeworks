@@ -87,3 +87,8 @@ def grass2():
         "30 дней",
         "Прикинь, чёрная(селекция!!!)",
     )
+
+
+@pytest.fixture
+def product_no_quantity():
+    return Category(name="Смартфон", description="Huawey Honor 10")
