@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="пятая домашка">
-      <change afterPath="$PROJECT_DIR$/src/exceptions.py" afterDir="false" />
+    <list default="true" id="00859d7e-a92a-4e3d-8a6b-ca1751d8066f" name="Changes" comment="шестая домашка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/smartphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/smartphone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_print_mixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_print_mixin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747498947516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="шестая домашка">
+      <option name="closed" value="true" />
+      <created>1747833840319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747833840319</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +194,7 @@
     <MESSAGE value="третья домашка" />
     <MESSAGE value="четвёртая домашка" />
     <MESSAGE value="пятая домашка" />
-    <option name="LAST_COMMIT_MESSAGE" value="пятая домашка" />
+    <MESSAGE value="шестая домашка" />
+    <option name="LAST_COMMIT_MESSAGE" value="шестая домашка" />
   </component>
 </project>
