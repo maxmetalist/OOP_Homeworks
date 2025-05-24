@@ -1,4 +1,6 @@
 # from src.lawngrass import LawnGrass
+
+from src.exceptions import ZeroQuantityError
 from src.products import Product
 
 # from src.smartphone import Smartphone
@@ -15,6 +17,7 @@ class Category:
     product_count: int = 0
 
     def __init__(self, name, description, products=None):
+        """Инициализатор объектов класса"""
 
         self.name = name
         self.description = description
@@ -41,17 +44,37 @@ class Category:
 
     @products.setter
     def products(self, product: Product):
-        """Сеттер для преобразования атрибута products"""
+        """Сеттер для преобразования атрибута products
+        (добавлялась проверка на принадлежность объекта классу Product"""
         if isinstance(product, Product):
-            self.__products.append(product)
-            Category.product_count += 1
+            try:
+                if product.quantity == 0:
+                    raise ZeroQuantityError(
+                        "Круто, конечно, но у тебя количество ноль." "Как мы добавим дырку от бублика?"
+                    )
+            except ZeroQuantityError as error:
+                print(str(error))
+            else:
+                self.__products.append(product)
+                Category.product_count += 1
+                print("Ладно, так и быть. Товар добавлен.")
+            finally:
+                print("Обработка завершена. Как то так...")
         else:
             raise TypeError
 
     @property
     def products_list(self):
-        """Геттер для обращения к преобразованному атрибуту products"""
+        """Геттер для обращения к преобразованному в список атрибуту products"""
         return self.__products
+
+    def middle_price(self):
+        """Метод для вычисления средней цены товара в категории"""
+        try:
+            return round(sum([product.price for product in self.__products]) / len(self.__products), 2)
+        except ZeroDivisionError:
+            print("Делить на ноль?!!!?? Да ты гений математики! Лобачевский нервно курит.")
+            return 0
 
 
 # if __name__ == '__main__':
@@ -99,8 +122,8 @@ class Category:
 #                        123000.0,
 #                        7)
 #     category2 = Category("Телевизоры",
-#                          "Современный телевизор, который позволяет наслаждаться просмотром,"
-#                          "станет вашим другом и помощником",
+#                          "Современный телевизор, который позволяет"
+#                          "наслаждаться просмотром, станет вашим другом и помощником",
 #                          [product4])
 #
 #     print(category2.name)
@@ -110,3 +133,54 @@ class Category:
 #
 #     print(Category.category_count)
 #     print(Category.product_count)
+#
+# if __name__ == '__main__':
+#     try:
+#         product_invalid = Product("Бракованный товар",
+#                                   "Неверное количество",
+#                                   1000.0,
+#                                   0)
+#     except ValueError as e:
+#         print(
+#             "Возникла ошибка ValueError прерывающая работу программы"
+#             "при попытке добавить продукт с нулевым количеством")
+#     else:
+#         print("Не возникла ошибка ValueError при попытке добавить продукт с нулевым количеством")
+#
+#     product1 = Product("Samsung Galaxy S23 Ultra",
+#                        "256GB, Серый цвет, 200MP камера",
+#                        180000.0,
+#                        5)
+#     product2 = Product("Iphone 15",
+#                        "512GB, Gray space",
+#                        210000.0,
+#                        8)
+#     product3 = Product("Xiaomi Redmi Note 11",
+#                        "1024GB, Синий",
+#                        31000.0,
+#                        14)
+#
+#     category1 = Category("Смартфоны",
+#                          "Категория смартфонов",
+#                          [product1, product2, product3])
+#
+#     print(category1.middle_price())
+#
+#     category_empty = Category("Пустая категория",
+#                               "Категория без продуктов",
+#                               [])
+#     print(category_empty.middle_price())
+#
+# if __name__ == "__main__":
+#     product = Product("Кирпич",
+#                       "Брак бракованый",
+#                       1000.0,
+#                       0)
+#     category = Category("Смартфоны",
+#                          "Смартфоны, как средство не только коммуникации,"
+#                          "но и получения дополнительных функций для удобства жизни",
+#                         [product])
+#     print(category.name)
+#     print(category.description)
+#     print(category)
+#     category.products = product
